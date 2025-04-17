@@ -149,6 +149,8 @@ private:
 
         if (model == "JETSON_NX")
             /* Pre-test configuration, if boot-time pinmux doesn't set up PWM pins:
+            Set BOARD pin 15 as mux function PWM: Jetson Orin Nano
+            busybox devmem 0x2440020 32 0x400
             Set BOARD pin 32 as mux function PWM (func 1):
             busybox devmem 0x2430040 32 0x401
             Set BOARD pin 33 as mux function PWM (func 2):

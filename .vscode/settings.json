@@ -65,7 +65,9 @@
         "locale": "cpp",
         "queue": "cpp",
         "stack": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "bit": "cpp",
+        "numeric": "cpp"
     },
     "C_Cpp.clang_format_style": "file",
 
